@@ -23,7 +23,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             SwiftLogoView(color: .red).opacity(redLightVisible ? 1.0 : 0.3)
-                .padding(.top, 16)
+                .padding(.top, 20)
             VStack {
                 SwiftLogoView(color: .orange).opacity(orangeLightVisible ? 1.0 : 0.3)
                     .padding(.all, 24)

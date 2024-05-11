@@ -18,7 +18,7 @@ struct SwiftLogoView: View {
             Circle()
                 .foregroundColor(color)
                 .frame(width: 180, height: 180)
-                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .overlay(Circle().stroke(Color.white, lineWidth: 2))
                 .shadow(radius: 10)
             /*
             Image(systemName: "swift")
